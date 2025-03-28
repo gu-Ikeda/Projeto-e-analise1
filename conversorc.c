@@ -22,7 +22,7 @@ int main()
     }
     for(int k = 0;k<soma;k++){
         char o = expressao[k];
-        printf("%c",k);
+        printf("%c",o);
     }
     return 0;
 }
