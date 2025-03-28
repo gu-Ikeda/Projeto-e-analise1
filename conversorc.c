@@ -9,6 +9,7 @@ int main()
     double op = 0;
     double soma = 0;
     char a = 'a';
+    int aux = 0;
     int y = sizeof(exp) / sizeof(exp[0]);
     int z = y-1;
     for(int i = 0;i<y;i++){
@@ -18,7 +19,8 @@ int main()
         soma += op;
     }
     for(int j = 0;j<soma;j++){
-        expressao[j] = a;
+        expressao[aux] = a;
+        aux++;
     }
     for(int k = 0;k<soma;k++){
         char o = expressao[k];
